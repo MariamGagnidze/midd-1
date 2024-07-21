@@ -1,0 +1,24 @@
+{
+  "name": "midd-homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "create-cli": "create.js",
+    "delete-cli": "delete.js",
+    "search-cli": "search.js"
+  },
+  "scripts": {
+    "start": "node --watch script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
